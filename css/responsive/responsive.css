@@ -95,6 +95,19 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+
+    /* Override */
+
+    .fplus-portfolio-share {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .fplus-single-portfolio-area {
+        padding-bottom: 50px !important;
+    }
+
     .header_area {
         height: 60px;
     }
@@ -183,6 +196,7 @@
         margin-bottom: 0;
     }
     .fplus-portfolio-content-area {
+        display: none;
         width: calc(80% - 0px);
         bottom: 200px;
     }
