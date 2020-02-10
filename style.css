@@ -488,6 +488,7 @@ li {
     background-color: #7bc0a9;
     border-radius: 9px;
     opacity: 1;
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -517,6 +518,7 @@ li {
 #nav-icon.open span:nth-child(2) {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     left: -100px;
 }
 
@@ -676,6 +678,7 @@ li {
     padding: 50px;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -705,6 +708,7 @@ li {
 .fplus-portfolio .single_gallery_item:hover .gallery-hover-overlay {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .fplus-portfolio .single_gallery_item:hover img {
