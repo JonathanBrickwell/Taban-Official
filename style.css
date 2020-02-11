@@ -209,11 +209,16 @@ a,
 a:hover,
 a:focus,
 a:active {
+
     text-decoration: none;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     font-weight: 600;
     outline: none;
+}
+
+.highlighted {
+    color: #7bd1b4 !important;
 }
 
 li {
@@ -1093,6 +1098,10 @@ li {
 /* Static Page Area CSS */
 
 .fplus-static-welcome-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-position: center center;
     background-size: cover;
     width: 100%;
@@ -1104,7 +1113,7 @@ li {
 .static-page-area {
     position: relative;
     z-index: 99;
-    padding-bottom: 175px;
+    padding-bottom: 100px;
 }
 
 .static-content {
@@ -1145,6 +1154,34 @@ li {
     line-height: 1;
     font-size: 18px;
     color: #959595 !important;
+}
+
+/* Breadcrumb */
+
+.breadcrumbs {
+    background-color: rgb(123, 192, 169, 0.9);
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 20px 50px 20px 50px;
+    letter-spacing: 1px;
+}
+
+.breadcrumb-items li {
+    display: inline-block;
+}
+
+.breadcrumb-items li:first-child a {
+    color: white !important;
+    text-decoration: underline;
+}
+
+.breadcrumb-items li:first-child::after {
+    content: "\00bb";
+}
+
+.breadcrumb-items li:nth-child(2) {
+    
 }
 
 /* Overrides */
@@ -1192,4 +1229,5 @@ li {
     width: 80%;
     height: 120px;
 }
+
 
