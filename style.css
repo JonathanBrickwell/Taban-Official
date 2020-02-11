@@ -1230,4 +1230,26 @@ li {
     height: 120px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    .fplus-hero-area, .parallax-image, .parallax-image-separator {
+        background-size: contain;
+    }
+
+    .next-service p {
+        font-size: 14px;
+    }
+
+    .static-content {
+        margin-top: 15px !important;
+    }
+}
+
+.next-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
 
