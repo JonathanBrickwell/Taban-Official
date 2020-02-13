@@ -601,6 +601,7 @@ li {
 }
 
 .fplus-single-feature {
+    height: 250px;
     padding: 30px 30px 25px;
     background-color: #fff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
