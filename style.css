@@ -1265,5 +1265,10 @@ li {
     font-size: 42px;
 }
 
+.service-name {
+    border-bottom: 2px solid #7bd0b3;
+    width: fit-content;
+}
+
 
 
