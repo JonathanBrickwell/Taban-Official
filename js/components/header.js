@@ -3,6 +3,7 @@ var header = (function() {
     var _headerDesign = function() {
         var html = '';
 
+        html += '<header class="header_area">'
         html += '<div class="container">';
         html += '<div class="row">';
         html += '<div class="col-12 d-flex">';
@@ -21,12 +22,17 @@ var header = (function() {
         html += '</div>';
         html += '</div>';
         html += '</div>';
+        html += '</header>';
+
+        html += `
+        
+        `;
 
         return html;
     }
 
     var render = function() {
-        var headerContainer = document.querySelector('header');
+        var headerContainer = document.getElementById('main-menu');
         headerContainer.innerHTML = _headerDesign();
     }
 
