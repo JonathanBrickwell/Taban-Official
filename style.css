@@ -73,6 +73,8 @@ p {
     color: #7BC0A9 !important;
 }
 
+
+
 p {
 
     color: #606060;
@@ -548,6 +550,17 @@ li {
     position: relative;
     z-index: 1;
     background-image: url(img/cover-img/23467226_1466486860134074_4170965363690006495_o.jpg); 
+    background-attachment: fixed;
+}
+
+.fplus-care-area {
+    width: 100%;
+    height: 770px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-image: url(img/services/Njega/cover-photo.jpg); 
     background-attachment: fixed;
 }
 
@@ -1110,7 +1123,7 @@ li {
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 550px;
+    height: 800px;
     position: relative;
     z-index: 1;
 }
@@ -1269,6 +1282,28 @@ li {
     border-bottom: 2px solid #7bd0b3;
     width: fit-content;
 }
+
+/* Card */
+
+.card {
+    border: 0px;
+}
+
+.card-header {
+    background-color: #7bc0a9;
+    border-radius: 0px !important;
+    border: 0px !important;
+}
+
+.card-header h5, .card-header button {
+    color: white;
+}
+
+.collapse {
+    border: 1px solid #ebebeb;
+}
+
+
 
 
 
