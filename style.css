@@ -1025,7 +1025,7 @@ li {
 
 .fplus-portfolio-share > a {
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     color: #000;
     padding: 30px;
@@ -1039,18 +1039,6 @@ li {
     color: #fff;
     border: 1px solid #fff;
     background-color: #7bd1b4;
-}
-
-.fplus-portfolio-share > a:first-child {
-    color: #fff;
-    background-color: #7bd1b4;
-    cursor: default;
-}
-
-.fplus-portfolio-share > a:hover:first-child {
-    color: #000;
-    border: 1px solid #ebebeb;
-    background-color: #ebebeb;
 }
 
 .fplus-portfolio-content-area {
