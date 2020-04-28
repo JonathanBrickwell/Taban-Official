@@ -411,7 +411,7 @@ li {
 }
 
 .header-social-info {
-    width: 50%;
+    width: 51%;
     background-color: rgba(255, 255, 255, 0.95);
     right: -55%;
     position: fixed;
@@ -572,6 +572,17 @@ li {
     position: relative;
     z-index: 1;
     background-image: url(img/bg-img/taban-masaze-3.jpg); 
+    background-attachment: fixed;
+}
+
+.fplus-extra-services-area {
+    width: 100%;
+    height: 770px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-image: url(img/bg-img/dodatne-usluge.jpg); 
     background-attachment: fixed;
 }
 
