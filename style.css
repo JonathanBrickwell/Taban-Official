@@ -231,6 +231,11 @@ li {
     list-style: none;
 }
 
+.list-style-added li {
+    list-style: inherit !important;
+    padding-top: 10px;
+}
+
 .fplus-table {
     display: table;
     height: 100%;
@@ -594,6 +599,28 @@ li {
     position: relative;
     z-index: 1;
     background-image: url(img/bg-img/taban-vjezbe-background.jpg); 
+    background-attachment: fixed;
+}
+
+.fplus-covid-area {
+    width: 100%;
+    height: 770px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-image: url(img/cover-img/covid-19.jpg); 
+    background-attachment: fixed;
+}
+
+.fplus-news-area {
+    width: 100%;
+    height: 770px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-image: url(img/cover-img/taban-novosti.jpg); 
     background-attachment: fixed;
 }
 
@@ -1337,6 +1364,34 @@ li {
     .mobile {
         display: none;
     }
+
+    .news-text-wrapper {
+        width: 100% !important;
+        height: 70% !important;
+    }
+
+    .fplus-portfolio .single_gallery_item img {
+        margin-top: 20px;
+    }
+
+}
+
+/* News */
+
+.news-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    background: rgba(255, 255, 255);
 }
 
 
